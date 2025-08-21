@@ -55,7 +55,7 @@ if (not tradeDispenserChannelColors) then
 end
 
 tradeDispenser_MaxBroadcastLength = 30;		-- minutes
-tradeDispenser_IsBurningCrusade = false;
+tradeDispenser_IsBurningCrusade = true;
 
 
 
@@ -220,4 +220,5 @@ function tradeDispenser_OnVariablesLoaded()
 	if (tD_CharDatas.SoundCheck==nil) then tD_CharDatas.SoundCheck=true end
 	if (tD_CharDatas.DisplayStockCheck==nil) then tD_CharDatas.DisplayStockCheck=true end
 end
+
 	
